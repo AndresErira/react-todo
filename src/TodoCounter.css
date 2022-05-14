@@ -1,0 +1,15 @@
+:root{
+    --secondary: #ff68a0;
+    --danger:#ffc774;
+    --active: #ffffb4;
+    --button:#dbffff;
+  }
+
+  .title{
+    text-align: center;
+  }
+  .progress{
+      text-align: center;
+      font-size: 20px;
+      color: #d6457a;
+  }

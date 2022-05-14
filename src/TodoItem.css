@@ -1,0 +1,18 @@
+.item-todo{
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.completed-icon{
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--primary);
+}
+.close-icon{
+    color: var(--secondary);
+
+    
+}

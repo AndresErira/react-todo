@@ -1,0 +1,28 @@
+:root{
+    --primary: #b150c2;
+    --secondary: #ff68a0;
+    --danger:#ffc774;
+    --active: #ffffb4;
+    --button:#dbffff;
+  }
+.title{
+    font-size: 30px;
+    color: var(--primary);
+}
+.input-new-task{
+    width: 90%;
+    border: none;
+    padding: 10px 0 10px 0;
+    border-radius: 10px;
+    background-color: rgb(238, 237, 237);
+    padding: 15px 15px;
+}
+.btn-new-task{
+    color:var(--active);
+    margin: 20px 0 20px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--primary) ;
+    padding: 10px 20px;
+    display: block;
+}
