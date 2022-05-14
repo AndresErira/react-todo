@@ -11,8 +11,8 @@ import './App.css';
 const todos = [
   {text: 'cortar cebolla', completed: false},
   {text: 'hacer aseo', completed: false},
-  {text: 'aprender webpack', completed: false},
-]
+  {text: 'aprender webpack', completed: false}
+];
 
 function App(props) {
   return (
@@ -21,10 +21,11 @@ function App(props) {
       <TodoCounter/>
       <TodoSearch/>
       <TodoList>
+        
         {todos.map(todo=>(
           <TodoItem text={todo.text} key={todo.text}/>
+          
         ))}
-        <TodoItem/>
         </TodoList>
       <CreateTodoButton/>
     </>

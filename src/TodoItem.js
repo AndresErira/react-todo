@@ -9,6 +9,9 @@ function TodoItem(props){
             {console.log(props)}
             <span className="close-icon">X</span>
         </li>
+        
     )
 }
 export {TodoItem};
+//Se debe usar export {nombreComponente}
+//en lugar de export default, para que al importar se fuerce a usar el mismo nombre de clase

@@ -3,9 +3,11 @@ import './TodoList.css';
 
 function TodoList(props){
     return(
+        <section>
         <ul className="container-list">
             {props.children}
         </ul>
+        </section>
     )
 }
 export {TodoList};
